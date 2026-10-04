@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudyFlow — Student Task Manager</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand"><div class="logo">S</div><div><strong>StudyFlow</strong><small>Student Manager</small></div></div>
+  <nav>
+    <a class="{{dashboard_active}}" href="/">▦ <span>Dashboard</span></a>
+    <a class="{{tasks_active}}" href="/tasks">✓ <span>My Tasks</span></a>
+    <a class="{{add_active}}" href="/add">＋ <span>Add Task</span></a>
+  </nav>
+  <div class="side-note"><strong>Stay organized.</strong><p>Small progress every day adds up to big results.</p></div>
+</aside>
+<main class="main">
+<header class="topbar"><span class="welcome">Student Workspace</span><div class="date" id="today"></div></header>
+{{content}}
+<footer>Student Task and Assignment Management System · Python + HTML + CSS</footer>
+</main>
+<script src="/static/script.js"></script>
+</body>
+</html>

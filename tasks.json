@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Computer Networks Assignment",
+    "subject": "Computer Networks",
+    "deadline": "2026-09-10",
+    "priority": "High",
+    "status": "Completed",
+    "description": "Complete the CN assignment questions."
+  },
+  {
+    "id": "2",
+    "title": "Dynamic Programming Revision",
+    "subject": "Algorithms",
+    "deadline": "2026-09-08",
+    "priority": "Medium",
+    "status": "Pending",
+    "description": "Revise change-making and matrix chain multiplication."
+  },
+  {
+    "id": "3",
+    "title": "Python Practical",
+    "subject": "Python",
+    "deadline": "2026-09-05",
+    "priority": "Low",
+    "status": "Completed",
+    "description": "Finish and test the Python practical programs."
+  },
+  {
+    "title": "Web Technology Assignment",
+    "subject": "Web Technology",
+    "deadline": "2026-09-15",
+    "priority": "High",
+    "status": "Pending",
+    "description": "Complete ASAP!",
+    "id": "6130e890"
+  }
+]
